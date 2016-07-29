@@ -1,0 +1,40 @@
+.show1 {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	position: relative;
+}
+.show2 {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	position: relative;
+}
+
+.slide {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	transition: left 2s;
+	z-index: -10;
+}
+.slideLeft {
+	left: -120%;
+}
+.slideRight {
+	left: 120%;
+}
+
+.pic1 {
+	/* background: url('wc1.jpg');
+	background-size: cover; */
+	background: red;
+	z-index: 10;
+}
+.pic2 {
+	background: blue;
+}
+.pic3 {
+	background: green;
+}
